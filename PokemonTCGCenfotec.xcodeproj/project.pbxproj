@@ -11,6 +11,10 @@
 		8A60713C25FAFF48000034B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A60713B25FAFF48000034B0 /* ContentView.swift */; };
 		8A60713E25FAFF49000034B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A60713D25FAFF49000034B0 /* Assets.xcassets */; };
 		8A60714125FAFF49000034B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A60714025FAFF49000034B0 /* Preview Assets.xcassets */; };
+		8A60714F25FB0077000034B0 /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A60714E25FB0077000034B0 /* PokemonCell.swift */; };
+		8A60715325FB210B000034B0 /* PokedexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A60715225FB210B000034B0 /* PokedexView.swift */; };
+		8A60715625FB26AC000034B0 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A60715525FB26AC000034B0 /* Pokemon.swift */; };
+		8A60715925FC702C000034B0 /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A60715825FC702C000034B0 /* PokemonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		8A60713D25FAFF49000034B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A60714025FAFF49000034B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A60714225FAFF49000034B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A60714E25FB0077000034B0 /* PokemonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCell.swift; sourceTree = "<group>"; };
+		8A60715225FB210B000034B0 /* PokedexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexView.swift; sourceTree = "<group>"; };
+		8A60715525FB26AC000034B0 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		8A60715825FC702C000034B0 /* PokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,9 @@
 		8A60713825FAFF48000034B0 /* PokemonTCGCenfotec */ = {
 			isa = PBXGroup;
 			children = (
+				8A60714D25FAFFBF000034B0 /* ViewModel */,
+				8A60714A25FAFF93000034B0 /* View */,
+				8A60714925FAFF88000034B0 /* Model */,
 				8A60713925FAFF48000034B0 /* PokemonTCGCenfotecApp.swift */,
 				8A60713B25FAFF48000034B0 /* ContentView.swift */,
 				8A60713D25FAFF49000034B0 /* Assets.xcassets */,
@@ -67,6 +78,31 @@
 				8A60714025FAFF49000034B0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A60714925FAFF88000034B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A60715525FB26AC000034B0 /* Pokemon.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A60714A25FAFF93000034B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A60714E25FB0077000034B0 /* PokemonCell.swift */,
+				8A60715225FB210B000034B0 /* PokedexView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A60714D25FAFFBF000034B0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8A60715825FC702C000034B0 /* PokemonViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A60715625FB26AC000034B0 /* Pokemon.swift in Sources */,
 				8A60713C25FAFF48000034B0 /* ContentView.swift in Sources */,
+				8A60715925FC702C000034B0 /* PokemonViewModel.swift in Sources */,
 				8A60713A25FAFF48000034B0 /* PokemonTCGCenfotecApp.swift in Sources */,
+				8A60714F25FB0077000034B0 /* PokemonCell.swift in Sources */,
+				8A60715325FB210B000034B0 /* PokedexView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
